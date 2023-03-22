@@ -9,7 +9,7 @@ document.querySelector("#push").onclick = function () {
                 <span id='taskname'>
                     ${document.querySelector("input").value}
                 </span>
-                <button class='done'>
+                <button class='delete'>
                     <i class="far fa-trash-alt"></i>
                 </button>
             </div>
