@@ -100,7 +100,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### 🖥️ Layout
 
-- [Layout Maratona Last Of Us](https://www.figma.com/file/kILPE9zDWM4oTzzejMAgSH/Untitled?t=8)
+- [To Do List](https://www.figma.com/file/kILPE9zDWM4oTzzejMAgSH/Untitled?t=8)
 
 <br />
 
