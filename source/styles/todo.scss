@@ -1,0 +1,91 @@
+@use "variables";
+
+body {
+  height: 100vh;
+  background-image: url(/source/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: variables.$font;
+}
+.container {
+  width: 40%;
+  min-width: 450px;
+  position: absolute;
+  min-height: 100px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: variables.$whiteColor;
+  border-radius: 10px;
+}
+#newtask {
+  position: relative;
+  padding: 30px 20px;
+}
+#newtask input {
+  width: 75%;
+  height: 45px;
+  font-size: 15px;
+  padding: 12px;
+  color: variables.$textColor;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid variables.$secondaryColor;
+}
+
+#newtask input:focus {
+  outline: none;
+  border-color: variables.$principalColor;
+}
+#newtask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: variables.$font;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: variables.$principalColor;
+  border: none;
+  color: variables.$secondaryColor;
+  cursor: pointer;
+  outline: none;
+}
+#tasks {
+  background-color: variables.$whiteColor;
+  padding: 30px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.task {
+  background-color: variables.$terciaryColor;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid variables.$terciaryColor;
+}
+.task span {
+  font-family: ‘Poppins’, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: variables.$textColor;
+}
+.task button {
+  background-color: variables.$principalColor;
+  color: variables.$secondaryColor;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
